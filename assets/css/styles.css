@@ -1,0 +1,95 @@
+/* =======================================================
+* Website Name: Packnow 1.0
+* Website URL: www.packnow.com.ng/
+* Author: Lagbalu Joseph (Jos33y)
+======================================================== */
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bitter|Bree+Serif|Roboto|Roboto+Slab&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(50, 51, 51);
+    background-color: #f1f5f6;
+}
+.navbar{
+    padding-top: 1.5%;
+}
+
+.nav-link {
+    font-size: 17px;
+    font-weight: 550;
+    margin-left: 50px;
+    color: #030e1c !important;
+    font-family: 'Bree Serif', serif;
+}
+
+.nav-link:hover{
+    color: #d5dce5 !important;
+}
+.active .nav-link{
+    color: #d5dce5 !important;
+    text-decoration: none;
+}
+
+.logo{
+    margin-left: 40px;
+    width: 40px;
+    height: 40px;
+}
+.logo-name{
+    margin-left: 3px;
+    font-size: 20px;
+    color: #11f7f7;
+    font-weight: 900;
+    font-family: 'Bree Serif', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.navbar-text{
+    margin-left: 10%;
+    font-size: 12px;
+}
+.navbar-text .fas{
+    color: #030e1c;
+    font-size: 16px;
+}
+.bg-home{
+    background-color:  #64a5ef;;
+    width: 100vw;
+    background-size: cover;
+}
+.style-text{
+    padding-top: 17%;
+    padding-bottom: 7%;
+}
+.header-text{
+    color: #11f7f7;
+    font-size: 55px;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+}
+.sub-text{
+    margin-top: 5%;
+    font-weight: 500;
+    font-size: 20px;
+}
+.style-text .btn{
+    margin-top: 7%;
+    background-color: #11f7f7;
+    border-color: #11f7f7;
+    border-radius: 30px;
+    font-weight: 700px ;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #64a5ef;
+    padding: 20px;
+}
+
+.home-image{
+    padding-top: 10%;
+}
