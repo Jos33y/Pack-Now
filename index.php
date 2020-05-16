@@ -229,7 +229,6 @@ include('header.html');
         </div>
     </div>
 </div>
-
 <!--Be A Designer column-->
 <div class="designers">
     <div class="container text-center">
@@ -241,6 +240,8 @@ include('header.html');
     </div>
 </div>
 
+<!-- End of Body Tags -->
 
 
+<!-- footer -->
 <?php include('footer.html'); ?>

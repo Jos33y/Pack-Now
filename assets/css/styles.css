@@ -3,342 +3,473 @@
 * Website URL: www.packnow.com.ng/
 * Author: Lagbalu Joseph (Jos33y)
 ======================================================== */
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bitter|Bree+Serif|Roboto|Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bitter|Bree+Serif|Roboto|Roboto+Slab&display=swap");
 
 body {
-    height: 100%;
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
-    font-family: 'Roboto', sans-serif;
-    color: #474c4c;
-    background-color: #f1f5f6;
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  font-family: "Roboto", sans-serif;
+  color: #474c4c;
+  background-color: #f1f5f6;
 }
 
 .navbar {
-    padding-top: 1.5%;
+  padding-top: 1.5%;
 }
 
 .nav-link {
-    font-size: 17px;
-    font-weight: 550;
-    margin-left: 50px;
-    color: #3e4095 !important;
-    font-family: 'Bree Serif', serif;
+  font-size: 17px;
+  font-weight: 550;
+  margin-left: 50px;
+  color: #3e4095 !important;
+  font-family: "Bree Serif", serif;
 }
 
 .nav-link:hover {
-    color: #d5dce5 !important;
+  color: #d5dce5 !important;
 }
 
 .active .nav-link {
-    color: #0e648e !important;
-    text-decoration: none;
+  color: #0e648e !important;
+  text-decoration: none;
 }
 
 .logo {
-    margin-left: 40px;
-    width: 40px;
-    height: 40px;
+  margin-left: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .logo-name {
-    margin-left: 3px;
-    font-size: 20px;
-    color: #0fe7dc;
-    font-weight: 900;
-    font-family: 'Bree Serif', serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-
+  margin-left: 3px;
+  font-size: 20px;
+  color: #0fe7dc;
+  font-weight: 900;
+  font-family: "Bree Serif", serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .navbar-text {
-    margin-left: 10%;
-    font-size: 12px;
-    color: #3e4095;
+  margin-left: 10%;
+  font-size: 12px;
+  color: #3e4095;
 }
 
 .navbar-text .fas {
-    color: #3e4095;
-    font-size: 16px;
+  color: #3e4095;
+  font-size: 16px;
 }
 
 .bg-home {
-    background-color: #00afef;
-    ;
-    width: 100vw;
-    background-size: cover;
+  background-color: #00afef;
+  width: 100vw;
+  background-size: cover;
 }
 
 .style-text {
-    padding-top: 17%;
-    padding-bottom: 7%;
+  padding-top: 17%;
+  padding-bottom: 7%;
 }
 
 .header-text {
-    color: #0fe7dc;
-    font-size: 55px;
-    font-family: 'Alfa Slab One', cursive;
-    letter-spacing: 2px;
+  color: #0fe7dc;
+  font-size: 55px;
+  font-family: "Alfa Slab One", cursive;
+  letter-spacing: 2px;
 }
 
 .sub-text {
-    margin-top: 5%;
-    font-weight: 500;
-    font-size: 20px;
+  margin-top: 5%;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .style-text .btn {
-    margin-top: 7%;
-    background-color: #0fe7dc;
-    border-color: #0fe7dc;
-    border-radius: 30px;
-    font-weight: 700px;
-    font-size: 14px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #64a5ef;
-    padding: 20px;
+  margin-top: 7%;
+  background-color: #0fe7dc;
+  border-color: #0fe7dc;
+  border-radius: 30px;
+  font-weight: 700px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #64a5ef;
+  padding: 20px;
 }
 
 .home-image {
-    padding-top: 10%;
-    height: auto;
-    width: 100%;
+  padding-top: 10%;
+  height: auto;
+  width: 100%;
 }
 
 /** Choose Style Section SFirst columns of homepage style **/
 .card-col {
-    margin-top: 8%;
-    margin-bottom: 8%;
+  margin-top: 8%;
+  margin-bottom: 8%;
 }
 
 .first-head {
-    color: #0fe7dc;
-    font-size: 50px;
-    font-weight: 900;
-    font-family: 'Bree Serif', serif;
-
+  color: #0fe7dc;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Bree Serif", serif;
 }
 
 .line {
-    border: solid 1.5px #00afef;
-    margin-bottom: 8%;
-
+  border: solid 1.5px #00afef;
+  margin-bottom: 8%;
 }
 
 .card {
-    background: #f1f5f6;
-    border: #f1f5f6;
+  background: #f1f5f6;
+  border: #f1f5f6;
 }
 
 .card-title {
-    margin: 3%;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 700px;
-    color: #0fe7dc;
+  margin: 3%;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700px;
+  color: #0fe7dc;
 }
 
 .card-text {
-    text-align: center;
-    font-size: 11px;
-    font-weight: 600;
-    color: #0fe7dc;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  color: #0fe7dc;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .card .btn {
-    text-align: center;
-    margin-top: 15%;
-    margin-bottom: 5%;
-    background-color: #fff;
-    border-color: #fff;
-    border-radius: 30px;
-    font-weight: 700px;
-    font-size: 13px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #0fe7dc;
-    padding: 15px;
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 30px;
+  font-weight: 700px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #0fe7dc;
+  padding: 15px;
 }
 
 /** Three column Icon Second Column of homepage style **/
 .icons {
-    background: #fff;
-    margin-top: 8%;
-    padding-top: 5%;
-    padding-bottom: 10%;
+  background: #fff;
+  margin-top: 8%;
+  padding-top: 5%;
+  padding-bottom: 10%;
 }
 
 .icons .fas {
-    color: #3e4095;
-    align-items: center;
-    margin: 5%;
-    font-size: 70px;
+  color: #3e4095;
+  align-items: center;
+  margin: 5%;
+  font-size: 70px;
 }
 
 .icon-head {
-    color: #0fe7dc;
-    font-size: 24px;
-    margin-top: 8%;
-    font-weight: 900;
+  color: #0fe7dc;
+  font-size: 24px;
+  margin-top: 8%;
+  font-weight: 900;
 }
 
 .icon-text {
-    color: #474c4c;
-    font-size: 19px;
-    font-weight: 500;
-    letter-spacing: 1px;
+  color: #474c4c;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 /** Get Inspired Third Column Styles **/
 .home-inspire {
-    background: #fceed5;
-    padding-top: 10%;
-    padding-bottom: 5%;
+  background: #fceed5;
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
 
 .home-inspire-row {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 /** Package Styles Fourth Column **/
 .package {
-    margin-top: 10%;
-    margin-bottom: 8%;
+  margin-top: 10%;
+  margin-bottom: 8%;
 }
 
 .package .btn {
-    text-align: center;
-    margin-top: 15%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    background-color: #fff;
-    border-color: #fff;
-    border-radius: 30px;
-    font-weight: 700px;
-    font-size: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #0fe7dc;
-    padding: 20px;
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 30px;
+  font-weight: 700px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #0fe7dc;
+  padding: 20px;
 }
-
 
 /** Frequently Asked Questions Styles **/
-.faq{
-    background: #e3e4fa;
-    margin-bottom: 8%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    
+.faq {
+  background: #e3e4fa;
+  margin-bottom: 8%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
-.faq-head{
-    color: #0fe7dc;
-    font-size: 21px;
-    font-weight: 550;
-    font-family: 'Bree Serif', serif;
-    letter-spacing: 1px;
-
+.faq-head {
+  color: #0fe7dc;
+  font-size: 21px;
+  font-weight: 550;
+  font-family: "Bree Serif", serif;
+  letter-spacing: 1px;
 }
-.faq-text{
-    font-size: 16px;
+.faq-text {
+  font-size: 16px;
 }
-
 
 /** Become a Designer Style **/
-.designers{
-    margin-top: 8%;
-    margin-bottom: 3%;
+.designers {
+  margin-top: 8%;
+  margin-bottom: 3%;
 }
 .designers .btn {
-    text-align: center;
-    margin-top: 3%;
-    margin-bottom: 10%;
-    margin-left: 5%;
-    background-color: #fff;
-    border-color: #fff;
-    border-radius: 30px;
-    font-weight: 900px;
-    font-size: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #0fe7dc;
-    padding: 20px;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  margin-left: 5%;
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 30px;
+  font-weight: 900px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #0fe7dc;
+  padding: 20px;
 }
 .designer-head {
-    color: #0fe7dc;
-    font-size: 50px;
-    font-weight: 900;
-    font-family: 'Bree Serif', serif;
-    margin-top: 15%;
-    margin-bottom: 3%;
-
+  color: #0fe7dc;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Bree Serif", serif;
+  margin-top: 15%;
+  margin-bottom: 3%;
 }
 
 /** Footer Styles **/
 
-footer{
-    padding-top: 5%;
-    background: #dff1f8;
+footer {
+  padding-top: 5%;
+  background: #dff1f8;
 }
-.footer-head{
-    color: #0fe7dc;
-    font-size: 25px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-family: 'Bree Serif', serif;
+.footer-head {
+  color: #0fe7dc;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "Bree Serif", serif;
 }
-.footer-links{
-    font-size: 20px;
-    font-weight: 500;
+.footer-links {
+  font-size: 20px;
+  font-weight: 500;
 }
-.footer-sub{
-    color: #0fe7dc;
-    font-size: 25px;
-    font-weight: 550;
-    letter-spacing: 1px;
-    font-family: 'Bree Serif', serif;
-    margin-top: 15%;
-    margin-bottom: 8%;
+.footer-sub {
+  color: #0fe7dc;
+  font-size: 25px;
+  font-weight: 550;
+  letter-spacing: 1px;
+  font-family: "Bree Serif", serif;
+  margin-top: 15%;
+  margin-bottom: 8%;
 }
-footer .input{
-    background-color:#dff1f8;
-    border-top: #dff1f8;
-    border-right: #dff1f8;
-    border-left: #dff1f8;
-    border-radius: 0;
-    border-bottom: solid 2px #0fe7dc;
+footer .input {
+  background-color: #dff1f8;
+  border-top: #dff1f8;
+  border-right: #dff1f8;
+  border-left: #dff1f8;
+  border-radius: 0;
+  border-bottom: solid 2px #0fe7dc;
+}
+::placeholder {
+  color: #0fe7dc;
+  font-size: 14px;
+}
 
+footer .btn {
+  text-align: center;
+  margin-left: 2%;
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 20px;
+  font-weight: 900px;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #0fe7dc;
+  padding: 5px;
 }
-::placeholder{
-    color: #0fe7dc;
-    font-size: 14px;
+.footer-line {
+  margin-top: 10%;
+  border: solid 1px #3e4095;
+}
+.copyright {
+  font-size: 13px;
+  color: #3e4095;
+  padding-bottom: 3%;
 }
 
-footer .btn{
-    text-align: center;
-    margin-left: 2%;
-    background-color: #fff;
-    border-color: #fff;
-    border-radius: 20px;
-    font-weight: 900px;
-    font-size: 11px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #0fe7dc;
-    padding: 5px;
+/** ABOUT PAGE STYLES **/
+.about-image {
+  width: 100%;
 }
-.footer-line{
-    margin-top: 10%;
-    border: solid 1px #3e4095;
+/** about packnow styles **/
+.about-packnow {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: #121313;
+  font-size: 35px;
+  font-weight: 800;
+  font-family: "Bree Serif", serif;
 }
-.copyright{
-    font-size: 13px;  
-    color: #3e4095; 
-    padding-bottom: 3%;
+.about-text {
+  color: #474c4c;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/** Connect Styles **/
+
+hr {
+  border: solid 1px;
+}
+
+.connect {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: #121313;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Bree Serif", serif;
+}
+
+.social {
+  color: #3e4095;
+  margin-bottom: 8%;
+}
+.social li {
+  list-style-type: none;
+  margin-right: 8%;
+  display: inline;
+  font-size: 14px;
+  font-weight: 550;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.about-brand {
+  background: #fceed5;
+}
+.brand-text {
+  margin-top: 20%;
+  color: #3e4095;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Bree Serif", serif;
+}
+.note-head {
+  margin-top: 3%;
+  color: #121313;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Bree Serif", serif;
+}
+
+.note-text {
+  color: #474c4c;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 5%;
+}
+
+.note-icon .fas {
+  color: #3e4095;
+  align-items: center;
+  margin-top: 5%;
+  font-size: 30px;
+}
+
+/** Contact US Style **/
+.contact-head {
+  color: #474c4c;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 5%;
+}
+.red-text {
+  color: red;
+}
+
+.sub-contact {
+  color: #474c4c;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  margin-bottom: 10%;
+}
+.contact-text {
+  color: #474c4c;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.contact-links {
+  color: #121313;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 8%;
+}
+.contact-social li {
+  list-style-type: none;
+  margin-right: 5%;
+  display: inline;
+  font-size: 14px;
+  font-weight: 550;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.contact-social {
+  margin-bottom: 10%;
+}
+
+.contact-form {
+  margin: 5%;
+}
+
+.contact-form .btn {
+  text-align: center;
+  margin-bottom: 5%;
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 30px;
+  font-weight: 700px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #00afef;
+  padding: 15px;
 }
