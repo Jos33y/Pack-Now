@@ -36,7 +36,7 @@ include('header.html');
                     <a style="text-decoration:none;" href="#">
                         <p class="card-text">view more...</p>
                     </a>
-                    <a href="#" class="btn btn-primary">Meet our designer</a>
+                    <a href="meet-designer.php" class="btn btn-primary">Meet our designer</a>
                 </div>
             </div>
         </div>
@@ -46,10 +46,10 @@ include('header.html');
                 <img src="assets/img/image-two.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Satin Bag </h5>
-                    <a style="text-decoration:none;" href="#">
+                    <a style="text-decoration:none;" href="meet-designer.php">
                         <p class="card-text">view more...</p>
                     </a>
-                    <a href="#" class="btn btn-primary">Meet our designer</a>
+                    <a href="meet-designer.php" class="btn btn-primary">Meet our designer</a>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@ include('header.html');
                     <a style="text-decoration:none;" href="#">
                         <p class="card-text">view more...</p>
                     </a>
-                    <a href="#" class="btn btn-primary">Meet our designers</a>
+                    <a href="meet-designer.php" class="btn btn-primary">Meet our designers</a>
                 </div>
             </div>
         </div>
@@ -75,7 +75,7 @@ include('header.html');
                     <a style="text-decoration:none;" href="#">
                         <p class="card-text">view more...</p>
                     </a>
-                    <a href="#" class="btn btn-primary">Meet our designers</a>
+                    <a href="meet-designer.php" class="btn btn-primary">Meet our designers</a>
                 </div>
             </div>
         </div>
@@ -173,7 +173,7 @@ include('header.html');
                 <p class="icon-text">
                     Below you'll find answers to some common questions around creating a custom box. Every order is little
                     different though,
-                    so don't hesitate to <a style="text-decoration: none;" href="#">reach out </a> with anything else you might
+                    so don't hesitate to <a style="text-decoration: none;" href="contact.php">reach out </a> with anything else you might
                     be wondering.
                 </p>
             </div>
@@ -196,7 +196,7 @@ include('header.html');
             <div class="col-md-6">
                 <h3 class="faq-head">What choices affect my pricing?</h3>
                 <p class="faq-text">
-                    As a high-volume producer with scale economies, Packlane provides the industry's most competitive
+                    As a high-volume producer with scale economies, Packnow provides the industry's most competitive
                     prices on custom printed boxes available. Pricing is generally a factor of five things: dimensions,
                     box style, ink coverage on the box, box material, and quantity (higher quantities = bulk quantity
                     savings). If you have questions about pricing or choices that can affect your order, our customer
@@ -235,7 +235,7 @@ include('header.html');
         <div class="col-md-8 mx-auto">
             <h1 class="designer-head">Join Packnow</h1>
             <p class="icon-text">Join our team of designers and design customized boxes</p>
-            <a href="#" class="btn btn-primary">Become a Packnow Designer</a>
+            <a href="join-packnow.php" class="btn btn-primary">Become a Packnow Designer</a>
         </div>
     </div>
 </div>

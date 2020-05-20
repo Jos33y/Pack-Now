@@ -230,6 +230,7 @@ body {
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
 .faq-head {
   color: #0fe7dc;
   font-size: 21px;
@@ -237,6 +238,7 @@ body {
   font-family: "Bree Serif", serif;
   letter-spacing: 1px;
 }
+
 .faq-text {
   font-size: 16px;
 }
@@ -246,6 +248,7 @@ body {
   margin-top: 8%;
   margin-bottom: 3%;
 }
+
 .designers .btn {
   text-align: center;
   margin-top: 3%;
@@ -261,6 +264,7 @@ body {
   color: #0fe7dc;
   padding: 20px;
 }
+
 .designer-head {
   color: #0fe7dc;
   font-size: 50px;
@@ -273,9 +277,11 @@ body {
 /** Footer Styles **/
 
 footer {
+  margin-top: 5%;
   padding-top: 5%;
   background: #dff1f8;
 }
+
 .footer-head {
   color: #0fe7dc;
   font-size: 25px;
@@ -283,10 +289,12 @@ footer {
   letter-spacing: 1px;
   font-family: "Bree Serif", serif;
 }
+
 .footer-links {
   font-size: 20px;
   font-weight: 500;
 }
+
 .footer-sub {
   color: #0fe7dc;
   font-size: 25px;
@@ -296,6 +304,7 @@ footer {
   margin-top: 15%;
   margin-bottom: 8%;
 }
+
 footer .input {
   background-color: #dff1f8;
   border-top: #dff1f8;
@@ -304,6 +313,7 @@ footer .input {
   border-radius: 0;
   border-bottom: solid 2px #0fe7dc;
 }
+
 ::placeholder {
   color: #0fe7dc;
   font-size: 14px;
@@ -322,10 +332,12 @@ footer .btn {
   color: #0fe7dc;
   padding: 5px;
 }
+
 .footer-line {
   margin-top: 10%;
   border: solid 1px #3e4095;
 }
+
 .copyright {
   font-size: 13px;
   color: #3e4095;
@@ -336,6 +348,7 @@ footer .btn {
 .about-image {
   width: 100%;
 }
+
 /** about packnow styles **/
 .about-packnow {
   margin-top: 5%;
@@ -345,6 +358,7 @@ footer .btn {
   font-weight: 800;
   font-family: "Bree Serif", serif;
 }
+
 .about-text {
   color: #474c4c;
   font-size: 22px;
@@ -371,6 +385,7 @@ hr {
   color: #3e4095;
   margin-bottom: 8%;
 }
+
 .social li {
   list-style-type: none;
   margin-right: 8%;
@@ -380,9 +395,11 @@ hr {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
 .about-brand {
   background: #fceed5;
 }
+
 .brand-text {
   margin-top: 20%;
   color: #3e4095;
@@ -390,6 +407,7 @@ hr {
   font-weight: 900;
   font-family: "Bree Serif", serif;
 }
+
 .note-head {
   margin-top: 3%;
   color: #121313;
@@ -421,6 +439,7 @@ hr {
   letter-spacing: 1px;
   margin: 5%;
 }
+
 .red-text {
   color: red;
 }
@@ -431,11 +450,13 @@ hr {
   letter-spacing: 0.5px;
   margin-bottom: 10%;
 }
+
 .contact-text {
   color: #474c4c;
   font-size: 14px;
   letter-spacing: 0.5px;
 }
+
 .contact-links {
   color: #121313;
   font-size: 14px;
@@ -443,6 +464,7 @@ hr {
   letter-spacing: 0.5px;
   margin-bottom: 8%;
 }
+
 .contact-social li {
   list-style-type: none;
   margin-right: 5%;
@@ -452,6 +474,7 @@ hr {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
 .contact-social {
   margin-bottom: 10%;
 }
@@ -472,4 +495,172 @@ hr {
   text-transform: uppercase;
   color: #00afef;
   padding: 15px;
+}
+
+
+/** Join Packnow Styles **/
+.join-sub {
+  font-size: 20px;
+  font-family: "Bree Serif", serif;
+  margin-bottom: 8%;
+}
+
+.join-text {
+  font-size: 17px;
+}
+
+.label-text {
+  font-size: 15px;
+}
+
+.join-form {
+  border: solid 2px #00afef;
+  padding: 10px;
+  margin: 8%;
+}
+
+.form-margin {
+  margin-bottom: 2%;
+}
+
+.join .btn {
+  text-align: center;
+  margin-bottom: 5%;
+  background-color: #00afef;
+  border-color: #fff;
+  border-radius: 30px;
+  font-weight: 700px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 15px;
+}
+
+/** Join Thanks Style **/
+
+.thank-u {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: #121313;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Bree Serif", serif;
+  text-transform: uppercase;
+}
+
+.thanks-icon .fas {
+  color: #0fe7dc;
+  margin-top: 10%;
+  font-size: 180px;
+  margin-bottom: 10%;
+}
+
+.thanks-text {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 10%;
+}
+
+
+/** meet designer styles **/
+.meet-head {
+  margin-top: 5%;
+  color: #121313;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Bree Serif", serif;
+  text-transform: uppercase;
+}
+
+.meet-line {
+  border: solid 1px #00afef;
+}
+
+.meet-form {
+  border: solid 2px #00afef;
+  padding: 20px;
+}
+
+.price {
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.price-no {
+  color: pink;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Bree Serif", serif;
+  text-transform: uppercase;
+}
+
+.design {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.graphic-price {
+  color: pink;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.details {
+  font-size: 14px;
+}
+
+.meet .btn {
+  margin-bottom: 5%;
+  background-color: #00afef;
+  border-color: #fff;
+  border-radius: 30px;
+  font-weight: 700px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px;
+}
+
+.risk {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.risk-note {
+  color: rgb(245, 122, 122);
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.risk-text {
+  color: rgb(124, 122, 122);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/** Privacy Policy Styles **/
+.privacy-head{
+  margin-top: 20%;
+  margin-bottom: 5%;
+  color: #3e4095;
+  font-size: 45px;
+  font-weight: 800;
+  font-family: "Bree Serif", serif;
+  letter-spacing: 1px;
+}
+
+.sub-privacy{
+  margin-top: 5%;
+  color: #3e4095;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Bree Serif", serif;
+  letter-spacing: 1px;
+}
+.privacy-text{
+  font-size: 19px;
 }
