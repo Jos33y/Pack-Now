@@ -17,7 +17,7 @@ include('head.php');
         <i class="fas fa-check-circle"></i>
         </div>
         <p class="thanks-text">Your application is under review and we will get back to you shortly.
-        If you haven't heard from us in the next 24 hrs you can call this number +2347037344408
+        If you haven't heard from us in the next 24 hrs you can call this number +2349022145674
             or chat with us on WhatsApp</p>
     </div>
 </div>

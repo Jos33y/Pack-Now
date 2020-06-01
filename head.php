@@ -43,7 +43,7 @@
 <body>
     <!--header-->
   <header class="text-center">
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <a class="navbar-brand" href="index.php">
         <img src="assets/img/favicon-96x96.png" class="logo">
         <span class="logo-name">Packnow</span>
@@ -70,7 +70,7 @@
 
         </ul>
         <span class="navbar-text">
-          <i class="fas fa-phone-square-alt"></i>&nbspNeed Help? Call: <a style="text-decoration: none;" href="tel:+2347037344408">+2347037344408</a>
+          <i class="fas fa-phone-square-alt"></i>&nbspNeed Help? Call: <a style="text-decoration: none;" href="tel:+2349022145674">+2349022145674</a>
         </span>
       </div>
     </nav>

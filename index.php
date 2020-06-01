@@ -27,7 +27,7 @@ include('header.html');
 
     <h1 class="text-center first-head">Choose your custom box style</h1>
     <hr width="30%" class="line">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center ">
         <div class="col-md-3">
             <div class="card">
                 <img src="assets/img/image-one.png" class="card-img-top" alt="...">

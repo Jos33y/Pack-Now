@@ -92,7 +92,7 @@ body {
   background-color: #0fe7dc;
   border-color: #0fe7dc;
   border-radius: 30px;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 14px;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -124,20 +124,20 @@ body {
   margin-bottom: 8%;
 }
 
-.card {
+.card-col .card {
   background: #f1f5f6;
   border: #f1f5f6;
 }
 
-.card-title {
+.card-col .card-title {
   margin: 3%;
   text-align: center;
   font-size: 22px;
-  font-weight: 700px;
+  font-weight: 700;
   color: #0fe7dc;
 }
 
-.card-text {
+.card-col .card-text {
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -146,14 +146,14 @@ body {
   letter-spacing: 2px;
 }
 
-.card .btn {
+.card-col .card .btn {
   text-align: center;
   margin-top: 15%;
   margin-bottom: 5%;
   background-color: #fff;
   border-color: #fff;
   border-radius: 30px;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -215,7 +215,7 @@ body {
   background-color: #fff;
   border-color: #fff;
   border-radius: 30px;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -257,7 +257,7 @@ body {
   background-color: #fff;
   border-color: #fff;
   border-radius: 30px;
-  font-weight: 900px;
+  font-weight: 700;
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -325,7 +325,7 @@ footer .btn {
   background-color: #fff;
   border-color: #fff;
   border-radius: 20px;
-  font-weight: 900px;
+  font-weight: 700;
   font-size: 11px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -489,7 +489,7 @@ hr {
   background-color: #fff;
   border-color: #fff;
   border-radius: 30px;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -529,7 +529,7 @@ hr {
   background-color: #00afef;
   border-color: #fff;
   border-radius: 30px;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -616,7 +616,7 @@ hr {
   background-color: #00afef;
   border-color: #fff;
   border-radius: 30px;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -643,7 +643,7 @@ hr {
 }
 
 /** Privacy Policy Styles **/
-.privacy-head{
+.privacy-head {
   margin-top: 20%;
   margin-bottom: 5%;
   color: #3e4095;
@@ -653,7 +653,7 @@ hr {
   letter-spacing: 1px;
 }
 
-.sub-privacy{
+.sub-privacy {
   margin-top: 5%;
   color: #3e4095;
   font-size: 25px;
@@ -661,6 +661,163 @@ hr {
   font-family: "Bree Serif", serif;
   letter-spacing: 1px;
 }
-.privacy-text{
+
+.privacy-text {
   font-size: 19px;
+}
+
+
+/** Inspiration Page Styles **/
+.list-boxes {
+  margin-top: 5%;
+}
+
+.list-boxes .row {
+  margin-bottom: 5%;
+}
+
+.list-boxes .col-md-3 {
+  margin-bottom: 3%;
+}
+
+.list-boxes li {
+  list-style-type: none;
+  margin: 5%;
+  display: inline;
+}
+
+.list-boxes li a:hover {
+  border: 1px solid #00afef;
+}
+
+.list-boxes li a {
+  text-decoration: none;
+  color: #6f7272;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.list-line {
+  border: 1px solid #474c4c;
+}
+
+.featured-artist {
+  margin-top: 10%;
+
+}
+
+.featured-artist h3 {
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 2%;
+}
+
+.artist-img {
+  margin-top: 20%;
+  width: 150px;
+  height: 150px;
+}
+
+.artist .col-md-4 {
+  margin-bottom: 5%;
+}
+
+.artist .card-header {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20%;
+}
+
+.artist .card:hover {
+  border: 2px solid #00afef;
+
+}
+
+.artist .card-header.one {
+  background-image: url(../img/bg-one.jpg);
+  background-color: #e79b0f;
+
+}
+
+.artist .card-header.two {
+  background-image: url(../img/bg-two.jpg);
+  background-color: #e70fb8;
+
+}
+
+.artist .card-header.three {
+  background-image: url(../img/bg-three.jpg);
+  background-color: #e79b0f;
+
+}
+
+.artist .card-title {
+  margin-top: 5%;
+  text-align: center;
+  color: #474c4c;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.artist .card-text {
+  text-align: center;
+  color: #6f7272;
+  font-size: 16px;
+  margin-bottom: 5%;
+}
+
+/** How it Works **/
+.be-inspired .btn {
+  margin-bottom: 3%;
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #0fe7dc;
+  padding: 15px;
+}
+
+.be-inspired {
+  margin-top: 8%;
+  background: #e3e4fa;
+  margin-bottom: 8%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.be-inspired .head {
+  text-align: center;
+  color: #0fe7dc;
+  font-size: 40px;
+  font-weight: 550;
+  font-family: "Bree Serif", serif;
+  letter-spacing: 1px;
+  margin-bottom: 7%;
+}
+
+.step {
+  color: #3e4095;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.step-head {
+  color: #00afef;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Bree Serif", serif;
+  letter-spacing: 1px;
+  margin-bottom: 3%;
+}
+
+.step-line {
+  border: 2px dashed #3e4095;
+  margin-bottom: 10%;
 }

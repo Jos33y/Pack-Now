@@ -32,7 +32,7 @@ include('head.php');
       <h4 class="contact-text">
         Feel like talking
       </h4>
-      <p class="contact-links"> <i class="fas fa-phone-square-alt"></i> +2347037344408</p>
+      <p class="contact-links"> <i class="fas fa-phone-square-alt"></i> +2349022145674</p>
 
       <ul class="contact-social">
         <li> <a href="#" style="text-decoration: none;"><i class="fab fa-twitter-square"></i></a></li>
