@@ -27,13 +27,15 @@ include('head.php');
       <h4 class="contact-text">
         Need help?
       </h4>
-      <p class="contact-links"><i class="fas fa-envelope"></i> info@packnow.com</p>
-
+      <p><a href="mailto:info@packnow.com.ng" style="text-decoration:none;"  class="contact-links"> 
+        <i class="fas fa-envelope"></i> info@packnow.com.ng</a>
+</p>
       <h4 class="contact-text">
         Feel like talking
       </h4>
-      <p class="contact-links"> <i class="fas fa-phone-square-alt"></i> +2349022145674</p>
-
+     <p> <a href="tel:+2349022145674" style="text-decoration:none;" class="contact-links">
+      <i class="fas fa-phone-square-alt"></i> +2349022145674</a>
+</p>
       <ul class="contact-social">
         <li> <a href="#" style="text-decoration: none;"><i class="fab fa-twitter-square"></i></a></li>
         <li> <a href="#" style="text-decoration: none;"> <i class="fab fa-facebook-square"></i></a></li>
@@ -68,7 +70,7 @@ include('head.php');
         </div>
 
         <div class="form-group">
-          <button class="btn btn-md" type="submit">Send message</button>
+          <button class="btn btn-md" name="submit">Send message</button>
         </div>
 
       </form>
@@ -85,3 +87,59 @@ include('head.php');
 
 <!-- footer -->
 <?php include('footer.html'); ?>
+
+
+
+<?php 
+                    
+                    if(isset($_POST['submit'])){
+
+                        /// Admin receives message with this ///
+
+                        $sender_name = $_POST['name'];
+
+                        $sender_email = $_POST['email'];
+
+                        $sender_subject =  $_POST['subject'];
+
+                        $sender_message = $_POST['message'];
+
+                        $receiver_email = "info@packnow.com.ng";
+
+                        $msg = $sender_name . " " . $sender_message;
+
+                        // Always set content-type when sending HTML email
+                        $headers = "MIME-Version: 1.0" . "\r\n";
+                        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+                        $headers .= 'From: < ' . $sender_email .'>' . "\r\n";
+
+
+                     
+
+                        if( mail($receiver_email, $sender_subject, $msg, $headers) ){
+
+                          echo "<script> alert('Email Sent')</script>";
+                          ;
+                        }
+                        else{
+                          echo "<script> alert('Email Not Sent')</script>";
+                          ;
+
+                        }
+
+                        /// Auto reply to sender with this ///
+
+                        $email = $_POST['email'];
+
+                        $subject = "Packnow";
+
+                        $msg = "Thanks for sending us a message. we will reply your message ASAP";
+
+                        $from = "info@packnow.com.ng";
+
+                        mail($email, $subject, $msg, $from);
+
+                    }
+                    
+                    ?>

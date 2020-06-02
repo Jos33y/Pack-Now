@@ -12,7 +12,7 @@ include('head.php');
 <div class="container">
   <h1 class="about-packnow text-center"> About Packnow</h1>
 
-  <p class="about-text">They say good things come in small packages. At Packlane, we believe great things come in custom
+  <p class="about-text">They say good things come in small packages. At packnow, we believe great things come in custom
     packages, whether they’re small cartons, large printed shipping boxes, or anything in between. With a variety of
     shapes, colors, materials, and sizes, we give you the tools to create something exciting on the outside, thus
     exciting your customers about what’s on the inside. </p>
@@ -48,7 +48,7 @@ include('head.php');
 
       </div>
       <div class="col-md-6">
-        <img src="assets/img/brand-img.png" alt="">
+        <img src="assets/img/brand-img.png" alt="" class="img-fluid">
 
       </div>
     </div>

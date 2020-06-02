@@ -14,7 +14,7 @@ include('header.html');
                 <h1 class="header-text">Create custom packaging</h1>
                 <p class="sub-text">Custom packaging can turn your brand into the total package with full
                     customization, instant quoting, and fast turnarounds.</p>
-                <button class="btn btn-lg btn-success">Choose your style</button>
+                <a href="#choose-style" class="btn btn-lg btn-success">Choose your style</a>
             </div>
         </div>
 
@@ -25,12 +25,12 @@ include('header.html');
 <!--First Home Page Columns-->
 <div class="container card-col">
 
-    <h1 class="text-center first-head">Choose your custom box style</h1>
+    <h1 id="choose-style" class="text-center first-head">Choose your custom box style</h1>
     <hr width="30%" class="line">
     <div class="row justify-content-center ">
         <div class="col-md-3">
             <div class="card">
-                <img src="assets/img/image-one.png" class="card-img-top" alt="...">
+                <img src="assets/img/image-one.png" class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Custom Box</h5>
                     <a style="text-decoration:none;" href="#">
@@ -121,19 +121,19 @@ include('header.html');
         </div>
         <div class="row home-inspire-row">
             <div class="col-md-3">
-                <img src="assets/img/box-one.png" alt="" class="card-img-top">
+                <img src="assets/img/box-one.png" alt="" class="card-img-top img-fluid">
             </div>
 
             <div class="col-md-3">
-                <img src="assets/img/box-two.png" alt="" class="card-img-top">
+                <img src="assets/img/box-two.png" alt="" class="card-img-top img-fluid">
             </div>
 
             <div class="col-md-3">
-                <img src="assets/img/box-three.png" alt="" class="card-img-top">
+                <img src="assets/img/box-three.png" alt="" class="card-img-top img-fluid">
             </div>
 
             <div class="col-md-3">
-                <img src="assets/img/box-four.png" class="card-img-top" alt="">
+                <img src="assets/img/box-four.png" class="card-img-top img-fluid" alt="">
             </div>
 
         </div>
@@ -146,7 +146,7 @@ include('header.html');
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <img src="assets/img/gift-boxes.png" alt="">
+                <img src="assets/img/gift-boxes.png" alt="" class="img-fluid">
             </div>
             <div class="col-md-5" style="margin-left:3%;">
                 <h1 class="first-head">More than just a pretty package </h1> <br>
@@ -157,7 +157,7 @@ include('header.html');
                     your finished packaging boxes.
                 </p>
 
-                <a href="#" class="btn btn-primary">Find out what makes our boxes special</a>
+                <a href="about.php" class="btn btn-primary">Find out what makes our boxes special</a>
 
             </div>
         </div>
@@ -166,7 +166,7 @@ include('header.html');
 
 
 <!--Frequently Asked Questions-->
-<div class="faq">
+<div id="faq" class="faq">
     <div class="container">
             <div class="col-md-8 mx-auto text-center" style="margin-bottom: 5%">
                 <h1 class="first-head" style="margin-bottom:3%">Frequently Asked Questions</h1>

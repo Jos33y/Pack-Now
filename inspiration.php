@@ -19,16 +19,18 @@ include('head.php');
       their custom packaging design strategy.
     </p>
 
+</div>
+
 
 
     <!-- list of boxes-->
     <div class="list-boxes">
       <ul>
-        <li><a id="all"> All </a></li>
-        <li><a id="custombox"> Custom Box </a></li>
-        <li><a id="satinbag"> Satin Bag </a></li>
-        <li><a id="paperbag"> Paper Bag <a></li>
-        <li><a id="giftbox"> Gift Box </a> </li>
+        <li><button id="all"> All </button></li>
+        <li><button id="custombox" > Custom Box </button></li>
+        <li><button id="satinbag"> Satin Bag </button></li>
+        <li><button id="paperbag"> Paper Bag </button></li>
+        <li><button id="giftbox"> Gift Box </button> </li>
       </ul>
       <hr class="list-line">
 
@@ -130,7 +132,7 @@ include('head.php');
     <hr >
 
     <!--featured artist-->
-
+<div class="container">
     <div class="featured-artist">
       <h3> Featured Artists</h3>
 

@@ -43,7 +43,7 @@
 <body>
     <!--header-->
   <header class="text-center">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <a class="navbar-brand" href="index.php">
         <img src="assets/img/favicon-96x96.png" class="logo">
         <span class="logo-name">Packnow</span>

@@ -63,6 +63,36 @@ body {
   font-size: 16px;
 }
 
+/** Media Queries **/
+
+@media (max-width: 992px) {
+
+  .nav-link {
+    font-size: 15px;
+    margin-left: 30px;
+  }
+
+  .logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .logo-name {
+    font-size: 15px;
+
+  }
+
+  .navbar-text {
+    font-size: 10px;
+  }
+
+  .navbar-text .fas {
+    font-size: 14px;
+  }
+}
+
+/** Media Queries Ends **/
+
 .bg-home {
   background-color: #00afef;
   width: 100vw;
@@ -105,6 +135,77 @@ body {
   height: auto;
   width: 100%;
 }
+
+/** Media Queries **/
+
+@media (max-width: 992px) {
+
+  .style-text {
+    padding-top: 17%;
+    padding-bottom: 7%;
+  }
+
+  .header-text {
+    font-size: 45px;
+
+  }
+
+  .sub-text {
+    margin-top: 5%;
+    font-size: 17px;
+  }
+
+  .style-text .btn {
+    margin-top: 7%;
+    background-color: #0fe7dc;
+    border-color: #0fe7dc;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #64a5ef;
+    padding: 15px;
+  }
+
+
+}
+
+@media (max-width: 540px) {
+
+  .style-text {
+    padding-top: 17%;
+    padding-bottom: 7%;
+  }
+
+  .header-text {
+    font-size: 37px;
+
+  }
+
+  .sub-text {
+    margin-top: 5%;
+    font-size: 15px;
+  }
+
+  .style-text .btn {
+    margin-top: 7%;
+    background-color: #0fe7dc;
+    border-color: #0fe7dc;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #64a5ef;
+    padding: 15px;
+  }
+
+
+}
+
+
+/** Media Queries Ends **/
 
 /** Choose Style Section SFirst columns of homepage style **/
 .card-col {
@@ -161,6 +262,37 @@ body {
   padding: 15px;
 }
 
+/** Media Queries **/
+@media (max-width: 992px) {
+  .first-head {
+    font-size: 37px;
+  }
+
+}
+
+@media (max-width: 760px) {
+  .first-head {
+    font-size: 35px;
+  }
+
+}
+
+@media (max-width: 540px) {
+  .first-head {
+    font-size: 30px;
+  }
+
+}
+
+@media (min-width: 320px) {
+  .first-head {
+    font-size: 20px;
+  }
+
+}
+
+/** Media Queries Ends **/
+
 /** Three column Icon Second Column of homepage style **/
 .icons {
   background: #fff;
@@ -189,6 +321,47 @@ body {
   font-weight: 500;
   letter-spacing: 1px;
 }
+
+
+/** Media Queries **/
+@media (max-width: 992px) {
+
+  .icons .fas {
+    font-size: 65px;
+  }
+
+  .icon-head {
+    font-size: 22px;
+
+  }
+
+  .icon-text {
+    font-size: 17px;
+
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .icons .fas {
+    font-size: 60px;
+  }
+
+  .icon-head {
+    font-size: 18px;
+
+  }
+
+  .icon-text {
+    font-size: 15px;
+
+  }
+
+
+}
+
+/** Media Queries Ends **/
 
 /** Get Inspired Third Column Styles **/
 .home-inspire {
@@ -222,6 +395,50 @@ body {
   color: #0fe7dc;
   padding: 20px;
 }
+
+/** Media Queries **/
+
+@media (max-width: 760px) {
+  .package .btn {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #0fe7dc;
+    padding: 18px;
+  }
+
+}
+
+@media (max-width: 540px) {
+  .package .btn {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #0fe7dc;
+    padding: 12px;
+  }
+
+}
+
+
+
+/** Media Queries Ends **/
 
 /** Frequently Asked Questions Styles **/
 .faq {
@@ -273,6 +490,61 @@ body {
   margin-top: 15%;
   margin-bottom: 3%;
 }
+
+/** Media Queries **/
+
+@media (max-width: 760px) {
+  .designer-head {
+    font-size: 40px;
+    font-weight: 800;
+
+  }
+
+  .designers .btn {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #0fe7dc;
+    padding: 18px;
+  }
+}
+
+@media (max-width: 540px) {
+  .designer-head {
+    font-size: 30px;
+    font-weight: 800;
+
+  }
+
+  .designers .btn {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #0fe7dc;
+    padding: 15px;
+  }
+
+}
+
+
+
+/** Media Queries Ends **/
 
 /** Footer Styles **/
 
@@ -344,6 +616,26 @@ footer .btn {
   padding-bottom: 3%;
 }
 
+/** Media Queries **/
+
+@media (max-width: 760px) {
+  .footer-head {
+    font-size: 18px;
+    font-weight: 550;
+  }
+
+  .footer-links {
+    font-size: 13px;
+  }
+
+  .footer-sub {
+    font-size: 18px;
+
+  }
+}
+
+/** Media Queries Ends **/
+
 /** ABOUT PAGE STYLES **/
 .about-image {
   width: 100%;
@@ -365,6 +657,8 @@ footer .btn {
   font-weight: 500;
   letter-spacing: 1px;
 }
+
+
 
 /** Connect Styles **/
 
@@ -431,6 +725,106 @@ hr {
   font-size: 30px;
 }
 
+/** Media Queries **/
+
+@media (max-width: 992px) {
+  .about-packnow {
+    font-size: 35px;
+  }
+
+  .about-text {
+    font-size: 20px;
+  }
+
+
+  .social li a {
+    margin-right: 3%;
+    font-size: 12px;
+    font-weight: 550;
+    letter-spacing: 1px;
+  }
+
+}
+
+@media (max-width: 760px) {
+  .about-packnow {
+    font-size: 32px;
+
+  }
+
+  .about-text {
+    font-size: 18px;
+  }
+
+  .brand-text {
+    font-size: 40px;
+  }
+
+
+
+
+}
+
+@media (max-width: 540px) {
+  .about-packnow {
+    font-size: 30px;
+
+  }
+
+  .social li a {
+    margin-right: 3%;
+    font-size: 10px;
+    font-weight: 550;
+    letter-spacing: 1px;
+  }
+
+  .about-text {
+    font-size: 15px;
+  }
+
+  .brand-text {
+    font-size: 35px;
+  }
+
+  .note-head {
+    font-size: 25px;
+  }
+
+  .note-text {
+    font-size: 15px;
+
+  }
+}
+
+@media (max-width: 320px) {
+  .about-packnow {
+    font-size: 27px;
+
+  }
+
+  .about-text {
+    font-size: 14px;
+  }
+
+  .brand-text {
+    font-size: 30px;
+  }
+
+  .note-head {
+    font-size: 22px;
+  }
+
+  .note-text {
+    font-size: 13px;
+
+  }
+
+
+}
+
+/** Media Queries Ends **/
+
+
 /** Contact US Style **/
 .contact-head {
   color: #474c4c;
@@ -457,12 +851,12 @@ hr {
   letter-spacing: 0.5px;
 }
 
-.contact-links {
+a.contact-links {
   color: #121313;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.5px;
-  margin-bottom: 8%;
+  padding-bottom: 8%;
 }
 
 .contact-social li {
@@ -496,6 +890,36 @@ hr {
   color: #00afef;
   padding: 15px;
 }
+
+/** Media Queries **/
+
+@media (max-width: 320px) {
+  .about-packnow {
+    font-size: 25px;
+
+  }
+
+  .about-text {
+    font-size: 14px;
+  }
+
+  .brand-text {
+    font-size: 30px;
+  }
+
+  .note-head {
+    font-size: 22px;
+  }
+
+  .note-text {
+    font-size: 13px;
+
+  }
+
+
+}
+
+/** Media Queries Ends **/
 
 
 /** Join Packnow Styles **/
@@ -670,6 +1094,7 @@ hr {
 /** Inspiration Page Styles **/
 .list-boxes {
   margin-top: 5%;
+
 }
 
 .list-boxes .row {
@@ -680,27 +1105,72 @@ hr {
   margin-bottom: 3%;
 }
 
+
 .list-boxes li {
   list-style-type: none;
   margin: 5%;
   display: inline;
 }
 
-.list-boxes li a:hover {
-  border: 1px solid #00afef;
+.list-boxes li button {
+  font-weight: 600;
+  border: 0px solid;
+  font-size: 20px;
+  color: #6f7272;
+  letter-spacing: 1px;
+  background-color: #f1f5f6;
 }
 
-.list-boxes li a {
-  text-decoration: none;
-  color: #6f7272;
-  font-weight: 600;
-  font-size: 20px;
-  letter-spacing: 1px;
+.list-boxes li button:hover {
+  border: 1px solid #00afef;
 }
 
 .list-line {
   border: 1px solid #474c4c;
 }
+
+/** Media Queries **/
+@media (max-width: 992px) {
+
+  .list-boxes li button {
+
+    font-size: 15px;
+  }
+
+  .list-boxes li {
+    margin: 3%;
+  }
+}
+
+@media (max-width: 760px) {
+
+  .list-boxes li button {
+
+    font-size: 14px;
+  }
+
+  .list-boxes li {
+    margin: 1%;
+  }
+}
+
+@media (max-width: 540px) {
+  .list-boxes li button {
+
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .list-boxes li button {
+
+    font-size: 13px;
+  }
+
+}
+
+/** Media Queries Ends **/
 
 .featured-artist {
   margin-top: 10%;
@@ -821,3 +1291,77 @@ hr {
   border: 2px dashed #3e4095;
   margin-bottom: 10%;
 }
+
+
+@media (max-width: 540px) {
+  .step {
+
+    font-size: 12px;
+
+  }
+
+  .step-head {
+    font-size: 27px;
+  }
+
+  .be-inspired .btn {
+    margin-bottom: 3%;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #0fe7dc;
+    padding: 13px;
+  }
+  
+  .be-inspired .head {
+ 
+    font-size: 30px;
+  }
+  
+  
+
+  
+
+}
+
+@media (max-width: 320px) {
+  .step {
+
+    font-size: 8px;
+
+  }
+
+  .step-head {
+    font-size: 18px;
+  }
+
+  .be-inspired .btn {
+    margin-bottom: 3%;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #0fe7dc;
+    padding: 10px;
+  }
+  
+  .be-inspired .head {
+ 
+    font-size: 18px;
+  }
+  
+  
+
+  
+
+}
+
+
+/** Media Queries Ends **/
