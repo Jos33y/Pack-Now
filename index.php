@@ -12,7 +12,7 @@ include('header.html');
         <div class="col-md-6">
             <div class="style-text">
                 <h1 class="header-text">Create custom packaging</h1>
-                <p class="sub-text">Custom packaging can turn your brand into the total package with full
+                <p class="sub-text text-white">Custom packaging can turn your brand into the total package with full
                     customization, instant quoting, and fast turnarounds.</p>
                 <a href="#choose-style" class="btn btn-lg btn-success">Choose your style</a>
             </div>
@@ -25,7 +25,7 @@ include('header.html');
 <!--First Home Page Columns-->
 <div class="container card-col">
 
-    <h1 id="choose-style" class="text-center first-head">Choose your custom box style</h1>
+    <h1 class="text-center first-head" id="choose-style">Choose your custom box style</h1>
     <hr width="30%" class="line">
     <div class="row justify-content-center ">
         <div class="col-md-3">

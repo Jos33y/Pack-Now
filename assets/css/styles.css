@@ -45,7 +45,7 @@ body {
 .logo-name {
   margin-left: 3px;
   font-size: 20px;
-  color: #0fe7dc;
+  color: #3e4095;
   font-weight: 900;
   font-family: "Bree Serif", serif;
   text-transform: uppercase;
@@ -105,7 +105,7 @@ body {
 }
 
 .header-text {
-  color: #0fe7dc;
+  color: #3e4095;
   font-size: 55px;
   font-family: "Alfa Slab One", cursive;
   letter-spacing: 2px;
@@ -119,14 +119,14 @@ body {
 
 .style-text .btn {
   margin-top: 7%;
-  background-color: #0fe7dc;
-  border-color: #0fe7dc;
+  background-color: #3e4095;
+  border-color: #3e4095;
   border-radius: 30px;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #64a5ef;
+  color: #fff;
   padding: 20px;
 }
 
@@ -214,7 +214,7 @@ body {
 }
 
 .first-head {
-  color: #0fe7dc;
+  color: #3e4095;
   font-size: 50px;
   font-weight: 900;
   font-family: "Bree Serif", serif;
@@ -235,14 +235,14 @@ body {
   text-align: center;
   font-size: 22px;
   font-weight: 700;
-  color: #0fe7dc;
+  color: #3e4095;
 }
 
 .card-col .card-text {
   text-align: center;
   font-size: 11px;
   font-weight: 600;
-  color: #0fe7dc;
+  color: #3e4095;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -258,12 +258,13 @@ body {
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #0fe7dc;
+  color: #3e4095;
   padding: 15px;
 }
 
 /** Media Queries **/
 @media (max-width: 992px) {
+
   .first-head {
     font-size: 37px;
   }
@@ -284,7 +285,7 @@ body {
 
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .first-head {
     font-size: 20px;
   }
@@ -309,7 +310,7 @@ body {
 }
 
 .icon-head {
-  color: #0fe7dc;
+  color: #3e4095;
   font-size: 24px;
   margin-top: 8%;
   font-weight: 900;
@@ -392,7 +393,7 @@ body {
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #0fe7dc;
+  color: #3e4095;
   padding: 20px;
 }
 
@@ -449,7 +450,7 @@ body {
 }
 
 .faq-head {
-  color: #0fe7dc;
+  color: #3e4095;
   font-size: 21px;
   font-weight: 550;
   font-family: "Bree Serif", serif;
@@ -478,12 +479,12 @@ body {
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #0fe7dc;
+  color: #3e4095;
   padding: 20px;
 }
 
 .designer-head {
-  color: #0fe7dc;
+  color: #3e4095;
   font-size: 50px;
   font-weight: 900;
   font-family: "Bree Serif", serif;
@@ -555,7 +556,7 @@ footer {
 }
 
 .footer-head {
-  color: #0fe7dc;
+  color: #3e4095;
   font-size: 25px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -568,7 +569,7 @@ footer {
 }
 
 .footer-sub {
-  color: #0fe7dc;
+  color: #3e4095;
   font-size: 25px;
   font-weight: 550;
   letter-spacing: 1px;
@@ -583,11 +584,11 @@ footer .input {
   border-right: #dff1f8;
   border-left: #dff1f8;
   border-radius: 0;
-  border-bottom: solid 2px #0fe7dc;
+  border-bottom: solid 2px #3e4095;
 }
 
 ::placeholder {
-  color: #0fe7dc;
+  color: #3e4095;
   font-size: 14px;
 }
 
@@ -601,7 +602,7 @@ footer .btn {
   font-size: 11px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #0fe7dc;
+  color: #3e4095;
   padding: 5px;
 }
 
@@ -1316,15 +1317,15 @@ a.contact-links {
     color: #0fe7dc;
     padding: 13px;
   }
-  
+
   .be-inspired .head {
- 
+
     font-size: 30px;
   }
-  
-  
 
-  
+
+
+
 
 }
 
@@ -1351,15 +1352,15 @@ a.contact-links {
     color: #0fe7dc;
     padding: 10px;
   }
-  
+
   .be-inspired .head {
- 
+
     font-size: 18px;
   }
-  
-  
 
-  
+
+
+
 
 }
 
