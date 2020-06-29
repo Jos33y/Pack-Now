@@ -142,7 +142,7 @@ include('head.php');
           <div class="card">
             <div class="card-header one text-center">
 
-              <img src="assets/img/girl.jpg" class="rounded-circle artist-img" alt="">
+              <img src="assets/img/girl.jpg" class="rounded-circle  artist-img" alt="">
             </div>
 
             <div class="card-body">
@@ -163,7 +163,9 @@ include('head.php');
             </div>
 
             <div class="card-body">
+            <a href="artist_one.php" class="stretched-link">               
               <h5 class="card-title">Isabela Humphrey</h5>
+              </a>
               <p class="card-text">Isabela is a visual designer and illustrator currently based in Mexico City. Her work
                 is
                 inspired by the vibrant and colorful culture that surrounds her.</p>
