@@ -146,7 +146,9 @@ include('head.php');
             </div>
 
             <div class="card-body">
+            <a href="artist_one.php" class="stretched-link"> 
               <h5 class="card-title">Martha Saurez</h5>
+              </a>
               <p class="card-text">Artist from Baja, Mexico. Color is essential in my life and my work reflects it among
                 my paintings. Abstract and floral designs are my main style.</p>
             </div>
@@ -163,28 +165,12 @@ include('head.php');
             </div>
 
             <div class="card-body">
-            <a href="artist_one.php" class="stretched-link">               
+            <a href="artist_two.php" class="stretched-link">               
               <h5 class="card-title">Isabela Humphrey</h5>
               </a>
               <p class="card-text">Isabela is a visual designer and illustrator currently based in Mexico City. Her work
                 is
                 inspired by the vibrant and colorful culture that surrounds her.</p>
-            </div>
-          </div>
-        </div>
-
-        <!--artist column starts -->
-        <div class="col-md-4">
-
-          <div class="card">
-            <div class="card-header three text-center">
-
-              <img src="assets/img/man.jpg" class="rounded-circle artist-img" alt="">
-            </div>
-
-            <div class="card-body">
-              <h5 class="card-title">Bonnie Kate Wolf</h5>
-              <p class="card-text">Illustrator and brand designer. Originally from San Francisco. <br> <br> <br></p>
             </div>
           </div>
         </div>

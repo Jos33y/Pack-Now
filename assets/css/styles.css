@@ -62,7 +62,14 @@ body {
   color: #3e4095;
   font-size: 16px;
 }
-
+.creative{
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+.creative svg{
+  width: 100%;
+  height: 100%;
+}
 /** Media Queries **/
 
 @media (max-width: 992px) {
@@ -102,6 +109,7 @@ body {
 .style-text {
   padding-top: 17%;
   padding-bottom: 7%;
+  padding-left: 5%;
 }
 
 .header-text {
@@ -1218,11 +1226,6 @@ a.contact-links {
 
 }
 
-.artist .card-header.three {
-  background-image: url(../img/bg-three.jpg);
-  background-color: #e79b0f;
-
-}
 
 .artist .card-title {
   margin-top: 5%;
@@ -1247,6 +1250,12 @@ a.contact-links {
 .artist-page .card-header.one {
   background-image: url(../img/bg-one.jpg);
   background-color: #e79b0f;
+
+}
+
+.artist-page .card-header.two {
+  background-image: url(../img/bg-two.jpg);
+  background-color: #e70fb8;
 
 }
 

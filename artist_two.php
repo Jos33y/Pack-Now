@@ -8,14 +8,15 @@ include('head.php');
 <div class="container ">
     <div class="col-md-10 mx-auto">
         <div class="artist-page card">
-            <div class="card-header one text-center">
+            <div class="card-header two text-center">
 
-                <img src="assets/img/girl.jpg" class="rounded-circle artist-img" alt="">
+                <img src="assets/img/woman.jpg" class="rounded-circle artist-img" alt="">
             </div>
             <div class="card-body">
-                <h5 class="card-title">Martha Saurez</h5>
-                <p class="card-text">Artist from Baja, Mexico. Color is essential in my life and my work reflects it among
-                my paintings. Abstract and floral designs are my main style.</p>
+                <h5 class="card-title">Isabela Humphrey</h5>
+                <p class="card-text">Isabela is a visual designer and illustrator currently based in Mexico City. Her work
+                is
+                inspired by the vibrant and colorful culture that surrounds her.</p>
             </div>
 
         </div>
@@ -38,4 +39,4 @@ include('head.php');
         </div>
 
     </div>
-</div>
+</div>\
