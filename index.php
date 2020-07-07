@@ -333,10 +333,13 @@ include('header.html');
                 <img src="assets/img/image-one.png" class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Custom Box</h5>
-                    <a style="text-decoration:none;" href="#">
+                    <a style="text-decoration:none;" href="inspiration.php">
                         <p class="card-text">view more...</p>
                     </a>
-                    <a href="meet-designer.php" class="btn btn-primary">Meet our designer</a>
+                    <a href="https://wa.me/2349022145674/?text=Hello, I want to design a box"
+                            title="click to open chat" class="btn btn-primary">
+                            Meet our designer
+                    </a>
                 </div>
             </div>
         </div>
@@ -346,10 +349,13 @@ include('header.html');
                 <img src="assets/img/image-two.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Satin Bag </h5>
-                    <a style="text-decoration:none;" href="meet-designer.php">
+                    <a style="text-decoration:none;" href="inspiration.php">
                         <p class="card-text">view more...</p>
                     </a>
-                    <a href="meet-designer.php" class="btn btn-primary">Meet our designer</a>
+                    <a href="https://wa.me/2349022145674/?text=Hello, I want to design a box"
+                            title="click to open chat" class="btn btn-primary">
+                            Meet our designer
+                    </a>
                 </div>
             </div>
         </div>
@@ -359,10 +365,13 @@ include('header.html');
                 <img src="assets/img/image-three.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Paper Bag </h5>
-                    <a style="text-decoration:none;" href="#">
+                    <a style="text-decoration:none;" href="inspiration.php">
                         <p class="card-text">view more...</p>
                     </a>
-                    <a href="meet-designer.php" class="btn btn-primary">Meet our designers</a>
+                    <a href="https://wa.me/2349022145674/?text=Hello, I want to design a box"
+                            title="click to open chat" class="btn btn-primary">
+                            Meet our designer
+                    </a>
                 </div>
             </div>
         </div>
@@ -372,10 +381,13 @@ include('header.html');
                 <img src="assets/img/image-four.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Gift Box</h5>
-                    <a style="text-decoration:none;" href="#">
+                    <a style="text-decoration:none;" href="inspiration.php">
                         <p class="card-text">view more...</p>
                     </a>
-                    <a href="meet-designer.php" class="btn btn-primary">Meet our designers</a>
+                    <a href="https://wa.me/2349022145674/?text=Hello, I want to design a box"
+                            title="click to open chat" class="btn btn-primary">
+                            Meet our designer
+                    </a>
                 </div>
             </div>
         </div>

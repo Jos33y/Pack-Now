@@ -4,15 +4,17 @@
 * Author: Lagbalu Joseph (Jos33y)
 ======================================================== */
 @import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bitter|Bree+Serif|Roboto|Roboto+Slab&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&family=Prompt:wght@600&display=swap');
 body {
   height: 100%;
   width: 100%;
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: 0;
   font-family: "Roboto", sans-serif;
   color: #474c4c;
   background-color: #f1f5f6;
+  overflow-x: hidden;
+ 
 }
 
 .navbar {
@@ -24,7 +26,7 @@ body {
   font-weight: 550;
   margin-left: 50px;
   color: #3e4095 !important;
-  font-family: "Bree Serif", serif;
+  font-family: 'Noto Sans SC', sans-serif;
 }
 
 .nav-link:hover {
@@ -47,7 +49,7 @@ body {
   font-size: 20px;
   color: #3e4095;
   font-weight: 900;
-  font-family: "Bree Serif", serif;
+  font-family: 'Noto Sans SC', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -115,7 +117,7 @@ body {
 .header-text {
   color: #3e4095;
   font-size: 55px;
-  font-family: "Alfa Slab One", cursive;
+  font-family: 'Prompt', sans-serif;
   letter-spacing: 2px;
 }
 
@@ -281,14 +283,14 @@ body {
 
 @media (max-width: 760px) {
   .first-head {
-    font-size: 35px;
+    font-size: 32px;
   }
 
 }
 
 @media (max-width: 540px) {
   .first-head {
-    font-size: 30px;
+    font-size: 25px;
   }
 
 }
@@ -776,7 +778,7 @@ hr {
 
 @media (max-width: 540px) {
   .about-packnow {
-    font-size: 30px;
+    font-size: 26px;
 
   }
 
@@ -807,7 +809,7 @@ hr {
 
 @media (max-width: 320px) {
   .about-packnow {
-    font-size: 27px;
+    font-size: 23px;
 
   }
 
@@ -1355,6 +1357,17 @@ a.contact-links {
   margin-bottom: 10%;
 }
 
+@media (max-width: 760px) {
+  .faq-text {
+    font-size: 14px;
+  }
+
+  .icon-text {
+    font-size: 15px;
+
+  }
+
+}
 
 @media (max-width: 540px) {
   .step {
@@ -1384,10 +1397,9 @@ a.contact-links {
 
     font-size: 30px;
   }
-
-
-
-
+  .faq-text {
+    font-size: 13px;
+  }
 
 }
 
@@ -1419,10 +1431,6 @@ a.contact-links {
 
     font-size: 18px;
   }
-
-
-
-
 
 }
 
