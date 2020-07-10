@@ -27,16 +27,16 @@ include('head.php');
     <div class="list-boxes">
       <table class="table-responsive">
         <tr>
-        <td><button id="all"> All </button></td>
-        <td><button id="custombox">Nail Packaging </button></td>
-        <td><button id="satinbag">Eyelash Packaging </button></td>
-        <td><button id="paperbag">Food/Bakery/Snack Boxes </button></td>
-        <td><button id="giftbox">Bridesmaids Gift Box </button> </td>
-        <td><button id="giftbox">Shoe Boxes </button> </td>
-        <td><button id="giftbox">Product Packaging </button> </td>
-        <td><button id="giftbox">Hair Packaging  </button> </td>
-        <td><button id="giftbox">Gift Boxes  </button> </td>
-        <td><button id="giftbox">Perfume Packaging  </button> </td>
+        <td><button class="btn btn-sm btn-primary" id="all"> All </button></td>
+        <td><button class="btn btn-sm btn-primary" id="custombox">Nail Packaging </button></td>
+        <td><button class="btn btn-sm btn-primary" id="satinbag">Eyelash Packaging </button></td>
+        <td><button class="btn btn-sm btn-primary" id="paperbag">Food/Bakery/Snack Boxes </button></td>
+        <td><button class="btn btn-sm btn-primary" id="giftbox">Bridesmaids Gift Box </button> </td>
+        <td><button class="btn btn-sm btn-primary" id="giftbox">Shoe Boxes </button> </td>
+        <td><button class="btn btn-sm btn-primary" id="giftbox">Product Packaging </button> </td>
+        <td><button class="btn btn-sm btn-primary" id="giftbox">Hair Packaging  </button> </td>
+        <td><button class="btn btn-sm btn-primary" id="giftbox">Gift Boxes  </button> </td>
+        <td><button class="btn btn-sm btn-primary" id="giftbox">Perfume Packaging  </button> </td>
 </tr>
       </table>
       <hr class="list-line">
