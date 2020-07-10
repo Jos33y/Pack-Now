@@ -44,7 +44,7 @@
 <body>
     <!--header-->
   <header class="text-center">
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="index.php">
         <img src="assets/img/fav/favicon-96x96.png" class="logo">
         <span class="logo-name">Packnow</span>

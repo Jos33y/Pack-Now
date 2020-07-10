@@ -16,7 +16,9 @@ body {
   overflow-x: hidden;
  
 }
-
+.fixed{
+  background-color: #00afef;
+}
 .navbar {
   padding-top: 1.5%;
 }
@@ -1119,20 +1121,21 @@ a.contact-links {
 
 .list-boxes li {
   list-style-type: none;
-  margin: 5%;
+
   display: inline;
+  overflow-x: visible;
 }
 
-.list-boxes li button {
+.list-boxes td button {
   font-weight: 600;
   border: 0px solid;
-  font-size: 20px;
+  font-size: 15px;
   color: #6f7272;
   letter-spacing: 1px;
   background-color: #f1f5f6;
 }
 
-.list-boxes li button:hover {
+.list-boxes td button:hover {
   border: 1px solid #00afef;
 }
 
@@ -1143,9 +1146,9 @@ a.contact-links {
 /** Media Queries **/
 @media (max-width: 992px) {
 
-  .list-boxes li button {
+  .list-boxes td button {
 
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .list-boxes li {
@@ -1155,9 +1158,9 @@ a.contact-links {
 
 @media (max-width: 760px) {
 
-  .list-boxes li button {
+  .list-boxes td button {
 
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .list-boxes li {
@@ -1166,17 +1169,17 @@ a.contact-links {
 }
 
 @media (max-width: 540px) {
-  .list-boxes li button {
+  .list-boxes td button {
 
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 
 @media (max-width: 320px) {
 
-  .list-boxes li button {
+  .list-boxes td button {
 
-    font-size: 13px;
+    font-size: 11px;
   }
 
 }

@@ -25,13 +25,20 @@ include('head.php');
 
     <!-- list of boxes-->
     <div class="list-boxes">
-      <ul>
-        <li><button id="all"> All </button></li>
-        <li><button id="custombox" > Custom Box </button></li>
-        <li><button id="satinbag"> Satin Bag </button></li>
-        <li><button id="paperbag"> Paper Bag </button></li>
-        <li><button id="giftbox"> Gift Box </button> </li>
-      </ul>
+      <table class="table-responsive">
+        <tr>
+        <td><button id="all"> All </button></td>
+        <td><button id="custombox">Nail Packaging </button></td>
+        <td><button id="satinbag">Eyelash Packaging </button></td>
+        <td><button id="paperbag">Food/Bakery/Snack Boxes </button></td>
+        <td><button id="giftbox">Bridesmaids Gift Box </button> </td>
+        <td><button id="giftbox">Shoe Boxes </button> </td>
+        <td><button id="giftbox">Product Packaging </button> </td>
+        <td><button id="giftbox">Hair Packaging  </button> </td>
+        <td><button id="giftbox">Gift Boxes  </button> </td>
+        <td><button id="giftbox">Perfume Packaging  </button> </td>
+</tr>
+      </table>
       <hr class="list-line">
 
     
@@ -40,28 +47,28 @@ include('head.php');
       <!--rows-->
       <div id="div1" class="row">
         <!--columns-->
-        <div class="col-md-3">
+        <div class="col-md-3 col-6">
           <div class="card">
           <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
           </div>
         </div>
 
         <!--columns-->
-        <div class="col-md-3">
+        <div class="col-md-3 col-6">
           <div class="card">
           <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
           </div>
         </div>
 
         <!--columns-->
-        <div class="col-md-3">
+        <div class="col-md-3 col-6">
           <div class="card">
           <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
           </div>
         </div>
 
         <!--columns-->
-        <div class="col-md-3">
+        <div class="col-md-3 col-6">
           <div class="card">
           <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
           </div>
@@ -72,21 +79,21 @@ include('head.php');
        <!--rows-->
        <div id="div2" class="row">
         <!--columns-->
-        <div class="col-md-3">
+        <div class="col-md-3 col-6">
           <div class="card">
           <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
           </div>
         </div>
 
         <!--columns-->
-        <div class="col-md-3">
+        <div class="col-md-3 col-6">
           <div class="card">
           <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
           </div>
         </div>
 
         <!--columns-->
-        <div class="col-md-3">
+        <div class="col-md-3 col-6">
           <div class="card">
           <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
           </div>
@@ -97,14 +104,14 @@ include('head.php');
        <!--rows-->
        <div id="div3" class="row">
         <!--columns-->
-        <div class="col-md-3">
+        <div class="col-md-3 col-6">
           <div class="card">
           <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
           </div>
         </div>
 
         <!--columns-->
-        <div class="col-md-3">
+        <div class="col-md-3 col-6">
           <div class="card">
           <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
           </div>
@@ -117,7 +124,7 @@ include('head.php');
        <!--rows-->
        <div id="div4" class="row">
         <!--columns-->
-        <div class="col-md-3">
+        <div class="col-md-3 col-6">
           <div class="card">
           <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
           </div>
