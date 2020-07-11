@@ -19,12 +19,9 @@ body {
 .fixed{
   background-color: #00afef;
 }
-.navbar {
-  padding-top: 1.5%;
-}
 
 .nav-link {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 550;
   margin-left: 50px;
   color: #3e4095 !important;
@@ -42,18 +39,8 @@ body {
 
 .logo {
   margin-left: 40px;
-  width: 40px;
-  height: 40px;
-}
-
-.logo-name {
-  margin-left: 3px;
-  font-size: 20px;
-  color: #3e4095;
-  font-weight: 900;
-  font-family: 'Noto Sans SC', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  width: 150px;
+  height: 50px;
 }
 
 .navbar-text {
@@ -67,8 +54,8 @@ body {
   font-size: 16px;
 }
 .creative{
-  margin-top: 10%;
-  margin-bottom: 3%;
+  margin-top: 13%;
+
 }
 .creative svg{
   width: 100%;
@@ -84,13 +71,8 @@ body {
   }
 
   .logo {
-    width: 35px;
-    height: 35px;
-  }
-
-  .logo-name {
-    font-size: 15px;
-
+    width: 150px;
+    height: 50px;
   }
 
   .navbar-text {
@@ -111,7 +93,7 @@ body {
 }
 
 .style-text {
-  padding-top: 17%;
+  padding-top: 25%;
   padding-bottom: 7%;
   padding-left: 5%;
 }
@@ -213,6 +195,9 @@ body {
     padding: 15px;
   }
 
+  .creative{
+    margin-top: 20%;
+  }
 
 }
 
@@ -1141,6 +1126,10 @@ a.contact-links {
 
 .list-line {
   border: 1px solid #474c4c;
+}
+.in-img{
+  width: 200px;
+  height: 150px;
 }
 
 /** Media Queries **/

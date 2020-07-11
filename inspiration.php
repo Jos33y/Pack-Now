@@ -28,112 +28,249 @@ include('head.php');
       <table class="table-responsive">
         <tr>
         <td><button class="btn btn-sm btn-primary" id="all"> All </button></td>
-        <td><button class="btn btn-sm btn-primary" id="custombox">Nail Packaging </button></td>
-        <td><button class="btn btn-sm btn-primary" id="satinbag">Eyelash Packaging </button></td>
-        <td><button class="btn btn-sm btn-primary" id="paperbag">Food/Bakery/Snack Boxes </button></td>
-        <td><button class="btn btn-sm btn-primary" id="giftbox">Bridesmaids Gift Box </button> </td>
-        <td><button class="btn btn-sm btn-primary" id="giftbox">Shoe Boxes </button> </td>
-        <td><button class="btn btn-sm btn-primary" id="giftbox">Product Packaging </button> </td>
-        <td><button class="btn btn-sm btn-primary" id="giftbox">Hair Packaging  </button> </td>
+        <td><button class="btn btn-sm btn-primary" id="brides">Bridesmaids Gift Box </button> </td>
+        <td><button class="btn btn-sm btn-primary" id="shoe">Shoe Boxes </button> </td>
+        <td><button class="btn btn-sm btn-primary" id="prodpack">Product Packaging </button> </td>
         <td><button class="btn btn-sm btn-primary" id="giftbox">Gift Boxes  </button> </td>
-        <td><button class="btn btn-sm btn-primary" id="giftbox">Perfume Packaging  </button> </td>
+        <td><button class="btn btn-sm btn-primary" id="nail">Nail Packaging </button></td>
+        <td><button class="btn btn-sm btn-primary" id="hair">Hair Packaging  </button> </td>
+        <td><button class="btn btn-sm btn-primary" id="perfume">Perfume Packaging  </button> </td>
+        <td><button class="btn btn-sm btn-primary" id="food">Food/Bakery/Snack Boxes </button></td>
+        <td><button class="btn btn-sm btn-primary" id="eye">Eyelash Packaging </button></td>
+        
+       
+     
+      
 </tr>
       </table>
-      <hr class="list-line">
+      <hr class="list-line">  
 
-    
-
-      
-      <!--rows-->
+        <!--rows-->
       <div id="div1" class="row">
         <!--columns-->
-        <div class="col-md-3 col-6">
-          <div class="card">
-          <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
-          </div>
-        </div>
-
-        <!--columns-->
-        <div class="col-md-3 col-6">
-          <div class="card">
-          <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
-          </div>
-        </div>
-
-        <!--columns-->
-        <div class="col-md-3 col-6">
-          <div class="card">
-          <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
-          </div>
-        </div>
-
-        <!--columns-->
-        <div class="col-md-3 col-6">
-          <div class="card">
-          <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
-          </div>
-        </div>
-        
+        <div class="col-md-2 col-6">    
+          <img src="assets/img/bimg1.png" class="img-fluid in-img" alt="">
+        </div> 
+         <!--columns-->
+         <div class="col-md-2 col-6">    
+          <img src="assets/img/bimg2.png" class="img-fluid in-img" alt="">
+        </div> 
+         <!--columns-->
+         <div class="col-md-2 col-6">    
+          <img src="assets/img/bimg4.png" class="img-fluid in-img" alt="">
+        </div>       
+         <!--columns-->
+         <div class="col-md-2 col-6">    
+          <img src="assets/img/bimg6.png" class="img-fluid in-img" alt="">
+        </div> 
+         <!--columns-->
+         <div class="col-md-2 col-6">    
+          <img src="assets/img/bimg3.png" class="img-fluid in-img" alt="">
+        </div> 
+         <!--columns-->
+         <div class="col-md-2 col-6">    
+          <img src="assets/img/bimg5.png" class="img-fluid in-img" alt="">
+        </div> 
+      
       </div>
 
        <!--rows-->
        <div id="div2" class="row">
         <!--columns-->
-        <div class="col-md-3 col-6">
-          <div class="card">
-          <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
-          </div>
-        </div>
+        <div class="col-md-2 col-6">    
+          <img src="assets/img/simg1.png" class="img-fluid in-img" alt="">
+        </div> 
+         <!--columns-->
+         <div class="col-md-2 col-6">    
+          <img src="assets/img/simg2.png" class="img-fluid in-img" alt="">
+        </div> 
+         <!--columns-->
+         <div class="col-md-2 col-6">    
+          <img src="assets/img/simg4.png" class="img-fluid in-img" alt="">
+        </div>       
+         <!--columns-->
+         <div class="col-md-2 col-6">    
+          <img src="assets/img/simg6.png" class="img-fluid in-img" alt="">
+        </div> 
+         <!--columns-->
+         <div class="col-md-2 col-6">    
+          <img src="assets/img/simg3.png" class="img-fluid in-img" alt="">
+        </div> 
+         <!--columns-->
+         <div class="col-md-2 col-6">    
+          <img src="assets/img/simg5.png" class="img-fluid in-img" alt="">
+        </div> 
 
-        <!--columns-->
-        <div class="col-md-3 col-6">
-          <div class="card">
-          <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
-          </div>
-        </div>
-
-        <!--columns-->
-        <div class="col-md-3 col-6">
-          <div class="card">
-          <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
-          </div>
-        </div>
+        
+       
         
       </div>
 
        <!--rows-->
        <div id="div3" class="row">
         <!--columns-->
-        <div class="col-md-3 col-6">
-          <div class="card">
-          <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
+        <div class="col-md-2 col-6">    
+          <img src="assets/img/pimg1.png" class="img-fluid in-img" alt="">
+        </div> 
+         <!--columns-->
+         <div class="col-md-2 col-6">    
+          <img src="assets/img/pimg2.png" class="img-fluid in-img" alt="">
+        </div> 
+         <!--columns-->
+         <div class="col-md-2 col-6">    
+          <img src="assets/img/pimg4.png" class="img-fluid in-img" alt="">
+        </div>       
+         <!--columns-->
+         <div class="col-md-2 col-6">    
+          <img src="assets/img/pimg6.png" class="img-fluid in-img" alt="">
+        </div> 
+         <!--columns-->
+         <div class="col-md-2 col-6">    
+          <img src="assets/img/pimg3.png" class="img-fluid in-img" alt="">
+        </div> 
+         <!--columns-->
+         <div class="col-md-2 col-6">    
+          <img src="assets/img/pimg5.png" class="img-fluid in-img" alt="">
+        </div> 
+
+        
+      </div>
+
+      
+      <div id="div4" class="row">
+          <!--columns-->
+          <div class="col-md-2 col-6">    
+            <img src="assets/img/gimg1.png" class="img-fluid in-img" alt="">
           </div>
+
+          <!--columns-->
+          <div class="col-md-2 col-6">    
+            <img src="assets/img/gimg2.png" class="img-fluid in-img" alt="">
+          </div>
+
+          <!--columns-->
+          <div class="col-md-2 col-6">    
+            <img src="assets/img/gimg3.png" class="img-fluid in-img" alt="">
+          </div> 
+          
+          <!--columns-->
+          <div class="col-md-2 col-6">    
+            <img src="assets/img/gimg4.png" class="img-fluid in-img" alt="">
+          </div>  
+
+           <!--columns-->
+           <div class="col-md-2 col-6">    
+            <img src="assets/img/gimg5.png" class="img-fluid in-img" alt="">
+          </div> 
+        
+      </div>
+      <!--rows-->
+      <div id="div5" class="row">
+        <!--columns-->
+        <div class="col-md-2 col-6">    
+          <img src="assets/img/nimg1.png" class="img-fluid in-img" alt="">
         </div>
 
         <!--columns-->
-        <div class="col-md-3 col-6">
-          <div class="card">
-          <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
-          </div>
+        <div class="col-md-2 col-6">
+          <img src="assets/img/nimg2.png" class="img-fluid in-img" alt="">
         </div>
 
-       
+        <!--columns-->
+        <div class="col-md-2 col-6">
+          <img src="assets/img/nimg3.png" class="img-fluid in-img" alt="">
+        </div>
+
+        <!--columns-->
+        <div class="col-md-2 col-6">
+          <img src="assets/img/nimg4.png" class="img-fluid in-img" alt="">
+        </div>
+        
         
       </div>
 
        <!--rows-->
-       <div id="div4" class="row">
-        <!--columns-->
-        <div class="col-md-3 col-6">
-          <div class="card">
-          <img src="assets/img/list-box.jpg" class="img-fluid" alt="">
+       <div id="div6" class="row">
+          <!--columns-->
+          <div class="col-md-2 col-6">    
+            <img src="assets/img/himg1.png" class="img-fluid in-img" alt="">
           </div>
-        </div>
-       
+
+          <!--columns-->
+          <div class="col-md-2 col-6">    
+            <img src="assets/img/himg2.png" class="img-fluid in-img" alt="">
+          </div>
+
+          <!--columns-->
+          <div class="col-md-2 col-6">    
+            <img src="assets/img/himg3.png" class="img-fluid in-img" alt="">
+          </div> 
+          
+          <!--columns-->
+          <div class="col-md-2 col-6">    
+            <img src="assets/img/himg4.png" class="img-fluid in-img" alt="">
+          </div>  
         
       </div>
 
-    </div>
+      
+      <div id="div7" class="row">
+          <!--columns-->
+          <div class="col-md-2 col-6">    
+            <img src="assets/img/peimg1.png" class="img-fluid in-img" alt="">
+          </div>
+
+          <!--columns-->
+          <div class="col-md-2 col-6">    
+            <img src="assets/img/peimg2.png" class="img-fluid in-img" alt="">
+          </div>
+
+          <!--columns-->
+          <div class="col-md-2 col-6">    
+            <img src="assets/img/peimg3.png" class="img-fluid in-img" alt="">
+          </div> 
+        
+      </div>
+  <!--rows-->
+      <div id="div8" class="row">
+          <!--columns-->
+        <div class="col-md-2 col-6">    
+          <img src="assets/img/fimg1.png" class="img-fluid in-img" alt="">
+        </div>
+
+        <!--columns-->
+        <div class="col-md-2 col-6">    
+          <img src="assets/img/fimg2.png" class="img-fluid in-img" alt="">
+        </div>
+
+         <!--columns-->
+         <div class="col-md-2 col-6">    
+          <img src="assets/img/fimg3.png" class="img-fluid in-img" alt="">
+        </div>       
+        
+      </div>
+
+       <!--rows-->
+       <div id="div9" class="row">
+        <!--columns-->
+        <div class="col-md-2 col-6">    
+          <img src="assets/img/eimg1.png" class="img-fluid in-img" alt="">
+        </div>
+
+        <!--columns-->
+        <div class="col-md-2 col-6">    
+          <img src="assets/img/eimg2.png" class="img-fluid in-img" alt="">
+        </div>
+
+        <!--columns-->
+    
+      </div>
+
+      
+       
+
+
+       </div>
 
 
     <hr >

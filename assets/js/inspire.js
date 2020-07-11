@@ -2,16 +2,16 @@ $('#all').click(function () {
     $('div').show();
 });
 
-$('#custombox').click(function () {
+$('#brides').click(function () {
     $('div[id^=div]').hide();
     $('#div1').show();
 });
-$('#satinbag').click(function () {
+$('#shoe').click(function () {
     $('div[id^=div]').hide();
     $('#div2').show();
 });
 
-$('#paperbag').click(function () {
+$('#prodpack').click(function () {
     $('div[id^=div]').hide();
     $('#div3').show();
 });
@@ -19,5 +19,35 @@ $('#paperbag').click(function () {
 $('#giftbox').click(function () {
     $('div[id^=div]').hide();
     $('#div4').show();
+
+});
+
+$('#nail').click(function () {
+    $('div[id^=div]').hide();
+    $('#div5').show();
+
+});
+
+$('#hair').click(function () {
+    $('div[id^=div]').hide();
+    $('#div6').show();
+
+});
+
+$('#perfume').click(function () {
+    $('div[id^=div]').hide();
+    $('#div7').show();
+
+});
+
+$('#food').click(function () {
+    $('div[id^=div]').hide();
+    $('#div8').show();
+
+});
+
+$('#eye').click(function () {
+    $('div[id^=div]').hide();
+    $('#div9').show();
 
 });
