@@ -1208,10 +1208,9 @@ a.contact-links {
 
 }
 
-.artist .card-header.one {
-  background-image: url(../img/bg-one.jpg);
-  background-color: #e79b0f;
-
+bg-card{
+  width: 100%;
+  height: 100%;
 }
 
 .artist .card-header.two {
@@ -1237,25 +1236,27 @@ a.contact-links {
   margin-bottom: 5%;
 }
 .artist-page.card{
+  margin-top: 10%;
   background-color: #f1f5f6;
   border: 0px solid #fff;
 }
 
-.artist-page .card-header.one {
-  background-image: url(../img/bg-one.jpg);
-  background-color: #e79b0f;
 
-}
 
 .artist-page .card-header.two {
   background-image: url(../img/bg-two.jpg);
   background-color: #e70fb8;
 
 }
+.bg-artist{
+  width: 100%;
+  height: 100%;
+}
 
 .artist-page .card-header {
+ 
   width: 100%;
-  height: 230px;
+  height: 100%;
   margin-bottom: 5%;
 }
 

@@ -8,14 +8,16 @@ include('head.php');
 <div class="container ">
     <div class="col-md-10 mx-auto">
         <div class="artist-page card">
-            <div class="card-header one text-center">
 
-                <img src="assets/img/girl.jpg" class="rounded-circle artist-img" alt="">
+            <div class="card-header text-center">
+
+                <img src="assets/img/BOXWAGON.png" class="img-fluid bg-artist" alt="">
             </div>
+
             <div class="card-body">
-                <h5 class="card-title">Martha Saurez</h5>
-                <p class="card-text">Artist from Baja, Mexico. Color is essential in my life and my work reflects it among
-                my paintings. Abstract and floral designs are my main style.</p>
+                <h5 class="card-title">Box Wagon</h5>
+                <p class="card-text">Box wagon is an online box making platform where all needs of gifts and products
+                    packaging are taken care of. They are based in Lagos</p>
             </div>
 
         </div>

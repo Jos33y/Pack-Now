@@ -8,15 +8,16 @@ include('head.php');
 <div class="container ">
     <div class="col-md-10 mx-auto">
         <div class="artist-page card">
-            <div class="card-header two text-center">
 
-                <img src="assets/img/woman.jpg" class="rounded-circle artist-img" alt="">
+            <div class="card-header text-center">
+
+                <img src="assets/img/makalaya-bg.png" class="img-fluid bg-artist" alt="">
             </div>
+
             <div class="card-body">
-                <h5 class="card-title">Isabela Humphrey</h5>
-                <p class="card-text">Isabela is a visual designer and illustrator currently based in Mexico City. Her work
-                is
-                inspired by the vibrant and colorful culture that surrounds her.</p>
+                <h5 class="card-title">Makalaya Innovatives</h5>
+                <p class="card-text">Makalaya Innovatives is an online box making platform where all needs of gifts and products
+                packaging are taken care of. They are based in Ibadan</p>
             </div>
 
         </div>

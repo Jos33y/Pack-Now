@@ -53,7 +53,7 @@ include('head.php');
       </div>
       <!--columns-->
       <div class="col-md-2 col-6">
-        <img src="/assets/img/bimg2.PNG" class="img-fluid in-img" alt="">
+        <img src="assets/img/bimg2.PNG" class="img-fluid in-img" alt="">
       </div>
       <!--columns-->
       <div class="col-md-2 col-6">
@@ -286,15 +286,15 @@ include('head.php');
           <div class="card">
             <div class="card-header one text-center">
 
-              <img src="assets/img/girl.jpg" class="rounded-circle  artist-img" alt="">
+              <img src="assets/img/BOXWAGON.png" class="img-fluid bg-card" alt="">
             </div>
 
             <div class="card-body">
               <a href="artist_one.php" class="stretched-link">
-                <h5 class="card-title">Martha Saurez</h5>
+                <h5 class="card-title">Box Wagon</h5>
               </a>
-              <p class="card-text">Artist from Baja, Mexico. Color is essential in my life and my work reflects it among
-                my paintings. Abstract and floral designs are my main style.</p>
+              <p class="card-text">Box wagon is an online box making platform where all needs of gifts and products
+                packaging are taken care of. They are based in Lagos</p>
             </div>
           </div>
         </div>
@@ -303,18 +303,17 @@ include('head.php');
         <div class="col-md-4">
 
           <div class="card">
-            <div class="card-header two text-center">
+            <div class="card-header one text-center">
 
-              <img src="assets/img/woman.jpg" class="rounded-circle artist-img" alt="">
+              <img src="assets/img/makalaya-bg.png" class="img-fluid bg-card" alt="">
             </div>
 
             <div class="card-body">
               <a href="artist_two.php" class="stretched-link">
-                <h5 class="card-title">Isabela Humphrey</h5>
+                <h5 class="card-title">Makalaya Innovatives</h5>
               </a>
-              <p class="card-text">Isabela is a visual designer and illustrator currently based in Mexico City. Her work
-                is
-                inspired by the vibrant and colorful culture that surrounds her.</p>
+              <p class="card-text">Makalaya Innovatives is an online box making platform where all needs of gifts and products
+                packaging are taken care of. They are based in Ibadan</p>
             </div>
           </div>
         </div>
